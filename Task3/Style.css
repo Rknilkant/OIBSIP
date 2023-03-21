@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('Img.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;  
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8%;
+    
+}
+
+.Container{
+    background-color: black;
+    opacity: 0.6;
+    padding: 40px;
+    color:white
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+span{
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#text{
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size:17px;
+}
+
+.RadioButtons{
+    margin-bottom: 30px;
+}
+
+.degree{
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+button{
+    padding:10px;
+    border-radius: 20px;
+    font-size:20px;
+    color:black;
+    font-weight: bolder;
+    background-color: chartreuse;
+}
+
+button:hover{
+    background-color:crimson;
+    cursor: pointer;
+}
+
+#Result{
+    margin-top: 20px;
+    text-align: center;
+    color:darksalmon;
+}
+
+@media screen and (max-width: 991px){
+    section{
+        margin-top:50%;
+    }
+}
+
+@media screen and (max-width:768px){
+    section{
+        margin-top:10%;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="Container">
+                <h1>Temperature Converter</h1>
+                <div class="Details">
+                <span>Enter Temperature</span>
+                <br>
+                <input id="text" type="number" placeholder="Enter Temperature" required>
+                <br>
+                <span>Convert To:</span><br>
+
+                <div class="RadioButtons">
+                    <input id="Celsius"  class="degree" type="radio" name="grp1" value="Celsius"><span class="degree">Celsius</span>
+                    <br>
+                    <input id="Fahrenheit" class="degree" type="radio" name="grp1" value="Fahrenheit"><span class="degree">Fahrenheit</span>
+                </div>
+
+
+                <button onclick="Result()">CONVERT</button>
+                <span id="Result"></span>
+            </div>
+        </section>
+                
+            
+        </div>  
+
+        <script src="main.js"></script>
+    </body>
+</html>
